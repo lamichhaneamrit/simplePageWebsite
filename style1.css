@@ -13,13 +13,9 @@
                     margin-left: 100px;
                 }
                 
-                nav {
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    min-height: 8vh;
-                    background-color: white;
-                    text-transform: uppercase;
+                background-image: url('images/background.jpg');
+                    background-position: center;
+                    background-size: cover;
                 }
                 
                 .logo {
@@ -27,25 +23,6 @@
                     cursor: pointer;
                 }
                 
-                .nav2 {
-                    display: flex;
-                    list-style-type: none;
-                    justify-content: space-around;
-                    width: 80%;
-                    align-items: center;
-                }
-                
-                .nav2 a {
-                    color: navy;
-                    text-decoration: none;
-                    letter-spacing: 3px;
-                    font-weight: bold;
-                    font-size: 14px;
-                }
-                
-                .nav2 li {
-                    list-style-type: none;
-                }
                 
                 h1 {
                     font-size: 30px;
@@ -105,7 +82,7 @@
                     line-height: 8px;
                 }
                 
-                #slideNav {
+                #sideNav {
                     width: 250px;
                     height: 100vh;
                     position: fixed;
@@ -124,6 +101,15 @@
                 nav ul li a {
                     text-decoration: none;
                     color: white;
+                }
+
+                #menuBtn {
+                    width: 50px;
+                    position: fixed;
+                    right: 65px;
+                    top: 35px;
+                    z-index: 2;
+                    cursor: pointer;
                 }
                 /*-----about ----*/
                 
@@ -161,7 +147,7 @@
                     font-style: italic;
                 }
                 
-                .about-text h3 {
+                .about-text h3{
                     font-size: 20px;
                     font-style: italic;
                     color: #797979,
@@ -491,8 +477,10 @@
                   .nav2 {
                         margin-right: 50px;
                         margin-left: 50px;
+                  }
                 #sideNav{
                   margin-right: 50px;
                         margin-left: 50px;
                   }
                   
+                  }
