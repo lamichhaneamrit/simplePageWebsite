@@ -19,20 +19,7 @@
 <link rel="stylesheet" href='style1.css'>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
-          <script>
-         var menuBtn = document.getElementById('menuBtn');
-        var sideNav = document.getElementById('sideNav');
-
-        sideNav.style.right = '-250px';
-        menuBtn.onclick = function() {
-            if (sideNav.style.right == '-250px') {
-                sideNav.style.right = '0';
-
-            } else {
-                sideNav.style.right = '-250px';
-            }
-        }
-    </script>
+    
 <body>
 
     <nav>
@@ -271,8 +258,8 @@
 
         sideNav.style.right = '-250px';
         menuBtn.onclick = function() {
-            if (sideNav.style.right == '-250px') {
-                sideNav.style.right = '0';
+            if (sideNav.style.right == '0') {
+                sideNav.style.right = '-2500';
 
             } else {
                 sideNav.style.right = '-250px';
